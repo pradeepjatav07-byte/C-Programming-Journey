@@ -47,16 +47,19 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 │   └── README.md  <-- You are here
 ```
 
-🚀 Day 01: Basic Conditional Logic
-Today, I focused on mastering the else-if ladder and basic range-based conditions.
-1. 📋 Student Result Analyzer
-Logic: Calculates total marks and percentage for three subjects and assigns a division.
-Key Concept: Using else-if for multiple range checks.
-File: Student_Result_Analyzer.c
-2. 🔢 Number Digit Classifier
-Logic: Identifies if a number is a 1-digit, 2-digit, or 3-digit number.
-Key Concept: Logical AND (&&) operators for boundary checking.
-File: Number_Digit_Classifier.c
+## 🚀 Day 01: Basic Conditional Logic
+
+Today, I focused on mastering the `else-if` ladder and basic range-based conditions.
+
+### 1. 📋 Student Result Analyzer
+* **Description:** Calculates total marks and percentage for three subjects and assigns a division (First, Second, Third, or Fail).
+* **Key Concept:** `else-if` ladder for multi-range score checking.
+* **Source Code:** [`Student_Result_Analyzer.c`](./Day_01/Student_Result_Analyzer.c)
+
+### 2. 🔢 Number Digit Classifier
+* **Description:** Identifies whether an input number is a 1-digit, 2-digit, or 3-digit number.
+* **Key Concept:** Logical AND (`&&`) operators for precise boundary checking.
+* **Source Code:** [`Number_Digit_Classifier.c`](./Day_01/Number_Digit_Classifier.c)
 🛠️ How to Run & Execute
 Make sure you have a C compiler (like gcc) installed on your system.
 
