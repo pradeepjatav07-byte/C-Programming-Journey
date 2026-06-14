@@ -27,7 +27,7 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 | Day | Topic | Problems | Status |
 | :--- | :--- | :--- | :--- |
 | **Day 01** | Basic Conditional Logic | Result Analyzer & Digit Classifier | ✅ Done |
-| **Day 02** | Decision Making | TV Discount & Fibonacci | ⏳ Pending |
+| **Day 02** | Decision Making & Loops | TV Discount & Palindrome | ✅ Done |
 | **Day 03** | While Loop Mastery | Palindrome & Prime Check | ⏳ Pending |
 | **Day 04** | Advanced Loops | Armstrong & Diamond Pattern | ⏳ Pending |
 | **Day 05** | Number Systems | Decimal to Binary & Series | ⏳ Pending |
@@ -60,6 +60,24 @@ Today, I focused on mastering the `else-if` ladder and basic range-based conditi
 * **Description:** Identifies whether an input number is a 1-digit, 2-digit, or 3-digit number.
 * **Key Concept:** Logical AND (`&&`) operators for precise boundary checking.
 * **Source Code:** [`Number_Digit_Classifier.c`](./Day_01/Number_Digit_Classifier.c)
+
+---
+
+## 🚀 Day 02: Decision Making & Loops
+
+Today, I worked on nested conditions for business logic and implemented loops for mathematical number checks.
+
+### 1. 📺 TV Discount Calculator
+* **Description:** Calculates the net price of a television based on its type (Color/B&W) and size specifications using conditional choices.
+* **Key Concept:** Nested `if-else` and choice-based branching.
+* **Source Code:** [`TV_Discount_Calc.c`](./Day_02/TV_Discount_Calc.c)
+
+### 🔄 2. Palindrome Number Checker
+* **Description:** Reverses an integer using a `while` loop to check if it reads the same backward as forward.
+* **Key Concept:** Number reversal logic (`% 10` and `/ 10`) inside a loop structure.
+* **Source Code:** [`Palindrome_Check.c`](./Day_02/Palindrome_Check.c)
+
+
 🛠️ How to Run & Execute
 Make sure you have a C compiler (like gcc) installed on your system.
 
