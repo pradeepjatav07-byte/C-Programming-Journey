@@ -28,7 +28,7 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 | :--- | :--- | :--- | :--- |
 | **Day 01** | Basic Conditional Logic | Result Analyzer & Digit Classifier | ✅ Done |
 | **Day 02** | Decision Making & Loops | TV Discount & Palindrome | ✅ Done |
-| **Day 03** | While Loop Mastery | Palindrome & Prime Check | ⏳ Pending |
+| **Day 03** | While Loop & Limits | Prime Check & Armstrong Range | ✅ Done |
 | **Day 04** | Advanced Loops | Armstrong & Diamond Pattern | ⏳ Pending |
 | **Day 05** | Number Systems | Decimal to Binary & Series | ⏳ Pending |
 | **Day 06** | Array Basics | Array Max Finder & Linear Search | ⏳ Pending |
@@ -76,6 +76,21 @@ Today, I worked on nested conditions for business logic and implemented loops fo
 * **Description:** Reverses an integer using a `while` loop to check if it reads the same backward as forward.
 * **Key Concept:** Number reversal logic (`% 10` and `/ 10`) inside a loop structure.
 * **Source Code:** [`Palindrome_Check.c`](./Day_02/Palindrome_Check.c)
+---
+
+## 🚀 Day 03: While Loop & Range Limits
+
+Today, I worked on tracking prime conditions using loops and generating mathematical number series within user-defined ranges.
+
+### 1. 🔢 Prime Number Checker
+* **Description:** Determines whether a user-inputted number is prime or not using a conditional tracking loop.
+* **Key Concept:** Loop boundaries and factors evaluation.
+* **Source Code:** [`Prime_Check.c`](./Day_03/Prime_Check.c)
+
+### 🦾 2. Armstrong Numbers in Range Generator
+* **Description:** Finds and prints all Armstrong numbers up to a specific limit specified by the user.
+* **Key Concept:** Count digits dynamically and calculate powers across a generated range using loops.
+* **Source Code:** [`Armstrong_Range.c`](./Day_03/Armstrong_Range.c)
 
 
 🛠️ How to Run & Execute
