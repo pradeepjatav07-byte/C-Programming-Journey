@@ -29,7 +29,7 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 | **Day 01** | Basic Conditional Logic | Result Analyzer & Digit Classifier | ✅ Done |
 | **Day 02** | Decision Making & Loops | TV Discount & Palindrome | ✅ Done |
 | **Day 03** | While Loop & Limits | Prime Check & Armstrong Range | ✅ Done |
-| **Day 04** | Advanced Loops | Armstrong & Diamond Pattern | ⏳ Pending |
+| **Day 04** | Advanced Loops & Number Systems | Rhombus Pattern & Binary Converter | ✅ Done |
 | **Day 05** | Number Systems | Decimal to Binary & Series | ⏳ Pending |
 | **Day 06** | Array Basics | Array Max Finder & Linear Search | ⏳ Pending |
 | **Day 07** | Array Operations | Array Insertion & Unique Primes | ⏳ Pending |
@@ -91,6 +91,21 @@ Today, I worked on tracking prime conditions using loops and generating mathemat
 * **Description:** Finds and prints all Armstrong numbers up to a specific limit specified by the user.
 * **Key Concept:** Count digits dynamically and calculate powers across a generated range using loops.
 * **Source Code:** [`Armstrong_Range.c`](./Day_03/Armstrong_Range.c)
+  ---
+
+## 🚀 Day 04: Advanced Loops & Number Systems
+
+Today, I worked on nested loops for geometric character layouts and logic to convert decimal numbers into binary.
+
+### 1. 🔷 Rhombus Character Pattern Generator
+* **Description:** Prints a symmetric tilted rhombus structure using conditional ternary operators to shift trailing spaces and loops.
+* **Key Concept:** Dynamic width formatting with conditional increment/decrement controls.
+* **Source Code:** [`Rhombus_Pattern.c`](./Day_04/Rhombus_Pattern.c)
+
+### 🔢 2. Decimal to Binary Converter
+* **Description:** Converts a user-inputted base-10 integer into its base-2 binary representation using a remainder-accumulation loop.
+* **Key Concept:** Base conversion using `% 2` and place-value multiplication inside a loop.
+* **Source Code:** [`Decimal_To_Binary.c`](./Day_04/Decimal_To_Binary.c)
 
 
 🛠️ How to Run & Execute
