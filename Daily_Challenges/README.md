@@ -30,12 +30,12 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 | **Day 02** | Decision Making & Loops | TV Discount & Palindrome | ✅ Done |
 | **Day 03** | While Loop & Limits | Prime Check & Armstrong Range | ✅ Done |
 | **Day 04** | Advanced Loops & Number Systems | Rhombus Pattern & Binary Converter | ✅ Done |
-| **Day 05** | Number Systems | Decimal to Binary & Series | ⏳ Pending |
-| **Day 06** | Array Basics | Array Max Finder & Linear Search | ⏳ Pending |
-| **Day 07** | Array Operations | Array Insertion & Unique Primes | ⏳ Pending |
-| **Day 08** | Sorting Algorithms | Bubble & Selection Sort | ⏳ Pending |
-| **Day 09** | Matrix Intro | Row Sum & Column Sum | ⏳ Pending |
-| **Day 10** | Advanced Matrix | Matrix Multiplication & String Patterns | ⏳ Pending |
+| **Day 05** | Array Basics & Filtering | First & Second Max & Linear Search | ✅ Done |
+| **Day 06** | Array Operations & Sorting | Position Insertion & Sorting Selector | ⏳ Pending |
+| **Day 07** | Advanced Arrays & Logic | Unique Prime Arrays & Custom Digit Series | ⏳ Pending |
+| **Day 08** | Matrix Basics | 3x3 Matrix Row Sum & Column Sum | ⏳ Pending |
+| **Day 09** | Advanced Matrix & Strings | Matrix Multiplication & String Sub-patterns | ⏳ Pending |
+| **Day 10** | Complex Sequences | Custom Math Series & Fibonacci Limits | ⏳ Pending |
 
 ---
  📂 Directory Structure
@@ -106,6 +106,21 @@ Today, I worked on nested loops for geometric character layouts and logic to con
 * **Description:** Converts a user-inputted base-10 integer into its base-2 binary representation using a remainder-accumulation loop.
 * **Key Concept:** Base conversion using `% 2` and place-value multiplication inside a loop.
 * **Source Code:** [`Decimal_To_Binary.c`](./Day_04/Decimal_To_Binary.c)
+---
+
+## 🚀 Day 05: Array Basics & Filtering
+
+Today, I moved into data structures by exploring single-dimensional arrays, element comparison logic, and sequential searching tracking.
+
+### 1. 📊 First & Second Maximum Finder
+* **Description:** Scans through a 10-element array to filter out and display the two highest unique values.
+* **Key Concept:** Conditional logic shift to maintain tracking of prime and secondary boundaries.
+* **Source Code:** [`Max_Finder.c`](./Day_05/Max_Finder.c)
+
+### 🔍 2. Linear Search Tracker
+* **Description:** Searches for a specific target value entered by the user within a 10-element array data structure.
+* **Key Concept:** Sequential array traversal and loop termination control on successful matching.
+* **Source Code:** [`Linear_Search.c`](./Day_05/Linear_Search.c)
 
 
 🛠️ How to Run & Execute
