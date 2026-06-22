@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Challenge-Status](https://img.shields.io/badge/Challenge-Day--01--Complete-success?style=for-the-badge&logo=github)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
-[![Problems-Solved](https://img.shields.io/badge/Problems--Solved-02-blue?style=for-the-badge)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
+[![Challenge-Status](https://img.shields.io/badge/Challenge-Day--05--Complete-success?style=for-the-badge&logo=github)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
+[![Problems-Solved](https://img.shields.io/badge/Problems--Solved-10-blue?style=for-the-badge)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
 [![Language](https://img.shields.io/badge/Language-C-orange?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
 
 **"Consistency is the key to mastery."** *A dedicated space for my daily 2-problem challenge to sharpen my logical thinking in C.*
@@ -38,12 +38,24 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 | **Day 10** | Complex Sequences | Custom Math Series & Fibonacci Limits | ⏳ Pending |
 
 ---
- 📂 Directory Structure
+📂 Directory Structure
 ```text
 ├── Daily_Challenges/
 │   ├── Day_01/
 │   │   ├── Student_Result_Analyzer.c
 │   │   └── Number_Digit_Classifier.c
+│   ├── Day_02/
+│   │   ├── TV_Discount_Calc.c
+│   │   └── Palindrome_Check.c
+│   ├── Day_03/
+│   │   ├── Prime_Check.c
+│   │   └── Armstrong_Range.c
+│   ├── Day_04/
+│   │   ├── Rhombus_Pattern.c
+│   │   └── Decimal_To_Binary.c
+│   ├── Day_05/
+│   │   ├── Max_Finder.c
+│   │   └── Linear_Search.c
 │   └── README.md  <-- You are here
 ```
 
