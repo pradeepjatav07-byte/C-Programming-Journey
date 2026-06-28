@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Challenge-Status](https://img.shields.io/badge/Challenge-Day--05--Complete-success?style=for-the-badge&logo=github)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
-[![Problems-Solved](https://img.shields.io/badge/Problems--Solved-10-blue?style=for-the-badge)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
+[![Challenge-Status](https://img.shields.io/badge/Challenge-Day--06--Complete-success?style=for-the-badge&logo=github)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
+[![Problems-Solved](https://img.shields.io/badge/Problems--Solved-12-blue?style=for-the-badge)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
 [![Language](https://img.shields.io/badge/Language-C-orange?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
 
 **"Consistency is the key to mastery."** *A dedicated space for my daily 2-problem challenge to sharpen my logical thinking in C.*
@@ -31,7 +31,7 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 | **Day 03** | While Loop & Limits | Prime Check & Armstrong Range | ✅ Done |
 | **Day 04** | Advanced Loops & Number Systems | Rhombus Pattern & Binary Converter | ✅ Done |
 | **Day 05** | Array Basics & Filtering | First & Second Max & Linear Search | ✅ Done |
-| **Day 06** | Array Operations & Sorting | Position Insertion & Sorting Selector | ⏳ Pending |
+| **Day 06** | Array Operations & Sorting | Position Insertion & Sorting Selector | ✅ Done |
 | **Day 07** | Advanced Arrays & Logic | Unique Prime Arrays & Custom Digit Series | ⏳ Pending |
 | **Day 08** | Matrix Basics | 3x3 Matrix Row Sum & Column Sum | ⏳ Pending |
 | **Day 09** | Advanced Matrix & Strings | Matrix Multiplication & String Sub-patterns | ⏳ Pending |
@@ -56,6 +56,9 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 │   ├── Day_05/
 │   │   ├── Max_Finder.c
 │   │   └── Linear_Search.c
+│   ├── Day_06/
+│   │   ├── Array_Insertion.c
+│   │   └── Sorting_Selector.c
 │   └── README.md  <-- You are here
 ```
 
@@ -133,6 +136,22 @@ Today, I moved into data structures by exploring single-dimensional arrays, elem
 * **Description:** Searches for a specific target value entered by the user within a 10-element array data structure.
 * **Key Concept:** Sequential array traversal and loop termination control on successful matching.
 * **Source Code:** [`Linear_Search.c`](./Day_05/Linear_Search.c)
+
+  ---
+
+## 🚀 Day 06: Array Operations & Sorting
+
+Today, I explored index shifting behaviors during dynamic element injection and basic sorting algorithms based on user choice toggles.
+
+### 1. ⚙️ Array Element Position Inserter
+* **Description:** Inserts a new numerical value at a specific user-defined index, shifting subsequent array elements dynamically.
+* **Key Concept:** Backward array traversal logic to prevent overwriting during index modification.
+* **Source Code:** [`Array_Insertion.c`](./Day_06/Array_Insertion.c)
+
+### 🔀 2. Sorting Algorithm Selector
+* **Description:** Sorts a 10-element array in ascending order by allowing the user to select either Bubble Sort or Selection Sort via switch controls.
+* **Key Concept:** Execution of adjacent-swapping logic vs index-tracking minimum selection mechanics.
+* **Source Code:** [`Sorting_Selector.c`](./Day_06/Sorting_Selector.c)
 
 
 🛠️ How to Run & Execute
