@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Challenge-Status](https://img.shields.io/badge/Challenge-Day--06--Complete-success?style=for-the-badge&logo=github)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
-[![Problems-Solved](https://img.shields.io/badge/Problems--Solved-12-blue?style=for-the-badge)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
+[![Challenge-Status](https://img.shields.io/badge/Challenge-Day--07--Complete-success?style=for-the-badge&logo=github)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
+[![Problems-Solved](https://img.shields.io/badge/Problems--Solved-14-blue?style=for-the-badge)](https://github.com/pradeepjatav07-byte/C-Programming-Journey)
 [![Language](https://img.shields.io/badge/Language-C-orange?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
 
 **"Consistency is the key to mastery."** *A dedicated space for my daily 2-problem challenge to sharpen my logical thinking in C.*
@@ -32,7 +32,7 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 | **Day 04** | Advanced Loops & Number Systems | Rhombus Pattern & Binary Converter | ✅ Done |
 | **Day 05** | Array Basics & Filtering | First & Second Max & Linear Search | ✅ Done |
 | **Day 06** | Array Operations & Sorting | Position Insertion & Sorting Selector | ✅ Done |
-| **Day 07** | Advanced Arrays & Logic | Unique Prime Arrays & Custom Digit Series | ⏳ Pending |
+| **Day 07** | Advanced Arrays & Logic | Unique Prime Arrays & Custom Digit Series | ✅ Done |
 | **Day 08** | Matrix Basics | 3x3 Matrix Row Sum & Column Sum | ⏳ Pending |
 | **Day 09** | Advanced Matrix & Strings | Matrix Multiplication & String Sub-patterns | ⏳ Pending |
 | **Day 10** | Complex Sequences | Custom Math Series & Fibonacci Limits | ⏳ Pending |
@@ -59,6 +59,9 @@ This repository is a structured 10-day challenge dedicated to mastering basic to
 │   ├── Day_06/
 │   │   ├── Array_Insertion.c
 │   │   └── Sorting_Selector.c
+│   ├── Day_07/
+│   │   ├── Unique_Prime_Array.c
+│   │   └── Digit_Sub_Series.c
 │   └── README.md  <-- You are here
 ```
 
@@ -152,7 +155,21 @@ Today, I explored index shifting behaviors during dynamic element injection and 
 * **Description:** Sorts a 10-element array in ascending order by allowing the user to select either Bubble Sort or Selection Sort via switch controls.
 * **Key Concept:** Execution of adjacent-swapping logic vs index-tracking minimum selection mechanics.
 * **Source Code:** [`Sorting_Selector.c`](./Day_06/Sorting_Selector.c)
+---
 
+## 🚀 Day 07: Advanced Arrays & Logic
+
+Today, I worked on strict input filtering inside data structures and string-based tokenization to generate custom numeric patterns.
+
+### 1. 🛡️ Unique Prime Array Validator
+* **Description:** Accepts a 10-element array from the user, verifying that every inputted number is prime and completely unique before storage.
+* **Key Concept:** Combining prime tracking algorithms with linear duplication checking inside a dynamic input loop.
+* **Source Code:** [`Unique_Prime_Array.c`](./Day_07/Unique_Prime_Array.c)
+
+### 🔢 2. Custom Digit Sub-Series Generator
+* **Description:** Breaks down an inputted multi-digit number into contiguous sequential sub-patterns (e.g., Input `124` -> Output `1, 12, 124, 2, 24, 4`).
+* **Key Concept:** Nested index manipulation and substring printing using string processing.
+* **Source Code:** [`Digit_Sub_Series.c`](./Day_07/Digit_Sub_Series.c)
 
 🛠️ How to Run & Execute
 Make sure you have a C compiler (like gcc) installed on your system.
